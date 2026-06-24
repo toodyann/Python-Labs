@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/python-banner.svg" alt="PYTHON" width="480"/>
+  <img src="assets/python-banner.svg?v=2" alt="PYTHON" width="480"/>
 </p>
 
 <h1 align="center">Python Labs</h1>
