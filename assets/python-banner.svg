@@ -1,83 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 72" width="520" height="72">
   <defs>
-    <linearGradient id="px" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F2B8A2"/>
-      <stop offset="45%" stop-color="#DA7756"/>
-      <stop offset="100%" stop-color="#B85C38"/>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A9FD4"/>
+      <stop offset="50%" stop-color="#3776AB"/>
+      <stop offset="100%" stop-color="#306998"/>
     </linearGradient>
-    <linearGradient id="pxHi" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#F5C9B8"/>
-      <stop offset="100%" stop-color="#E8956F"/>
+    <linearGradient id="blueHi" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7CB9E8"/>
+      <stop offset="100%" stop-color="#4B8BBE"/>
     </linearGradient>
-    <linearGradient id="pxSh" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#C96E4E"/>
-      <stop offset="100%" stop-color="#9A4A2E"/>
+    <linearGradient id="blueSh" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#306998"/>
+      <stop offset="100%" stop-color="#1F4F6F"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE873"/>
+      <stop offset="50%" stop-color="#FFD43B"/>
+      <stop offset="100%" stop-color="#E6B800"/>
+    </linearGradient>
+    <linearGradient id="yellowHi" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4A8"/>
+      <stop offset="100%" stop-color="#FFDF5E"/>
+    </linearGradient>
+    <linearGradient id="yellowSh" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6B800"/>
+      <stop offset="100%" stop-color="#B8940F"/>
     </linearGradient>
   </defs>
 
-  <!-- P -->
+  <!-- P (blue) -->
   <g transform="translate(4,4)">
-    <rect x="0" y="0" width="8" height="8" fill="url(#pxHi)"/><rect x="8" y="0" width="8" height="8" fill="url(#px)"/><rect x="16" y="0" width="8" height="8" fill="url(#px)"/><rect x="24" y="0" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="8" width="8" height="8" fill="url(#px)"/><rect x="32" y="8" width="8" height="8" fill="url(#pxSh)"/>
-    <rect x="0" y="16" width="8" height="8" fill="url(#px)"/><rect x="32" y="16" width="8" height="8" fill="url(#pxSh)"/>
-    <rect x="0" y="24" width="8" height="8" fill="url(#pxHi)"/><rect x="8" y="24" width="8" height="8" fill="url(#px)"/><rect x="16" y="24" width="8" height="8" fill="url(#px)"/><rect x="24" y="24" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="32" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="40" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="48" width="8" height="8" fill="url(#pxSh)"/>
+    <rect x="0" y="0" width="8" height="8" fill="url(#blueHi)"/><rect x="8" y="0" width="8" height="8" fill="url(#blue)"/><rect x="16" y="0" width="8" height="8" fill="url(#blue)"/><rect x="24" y="0" width="8" height="8" fill="url(#blue)"/>
+    <rect x="0" y="8" width="8" height="8" fill="url(#blue)"/><rect x="32" y="8" width="8" height="8" fill="url(#blueSh)"/>
+    <rect x="0" y="16" width="8" height="8" fill="url(#blue)"/><rect x="32" y="16" width="8" height="8" fill="url(#blueSh)"/>
+    <rect x="0" y="24" width="8" height="8" fill="url(#blueHi)"/><rect x="8" y="24" width="8" height="8" fill="url(#blue)"/><rect x="16" y="24" width="8" height="8" fill="url(#blue)"/><rect x="24" y="24" width="8" height="8" fill="url(#blue)"/>
+    <rect x="0" y="32" width="8" height="8" fill="url(#blue)"/>
+    <rect x="0" y="40" width="8" height="8" fill="url(#blue)"/>
+    <rect x="0" y="48" width="8" height="8" fill="url(#blueSh)"/>
   </g>
 
-  <!-- Y -->
+  <!-- Y (yellow) -->
   <g transform="translate(52,4)">
-    <rect x="0" y="0" width="8" height="8" fill="url(#px)"/><rect x="32" y="0" width="8" height="8" fill="url(#pxHi)"/>
-    <rect x="0" y="8" width="8" height="8" fill="url(#pxSh)"/><rect x="32" y="8" width="8" height="8" fill="url(#px)"/>
-    <rect x="8" y="16" width="8" height="8" fill="url(#px)"/><rect x="24" y="16" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="24" width="8" height="8" fill="url(#pxHi)"/>
-    <rect x="16" y="32" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="40" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="48" width="8" height="8" fill="url(#pxSh)"/>
+    <rect x="0" y="0" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="0" width="8" height="8" fill="url(#yellowHi)"/>
+    <rect x="0" y="8" width="8" height="8" fill="url(#yellowSh)"/><rect x="32" y="8" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="8" y="16" width="8" height="8" fill="url(#yellow)"/><rect x="24" y="16" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="16" y="24" width="8" height="8" fill="url(#yellowHi)"/>
+    <rect x="16" y="32" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="16" y="40" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="16" y="48" width="8" height="8" fill="url(#yellowSh)"/>
   </g>
 
-  <!-- T -->
+  <!-- T (blue) -->
   <g transform="translate(100,4)">
-    <rect x="0" y="0" width="8" height="8" fill="url(#pxHi)"/><rect x="8" y="0" width="8" height="8" fill="url(#px)"/><rect x="16" y="0" width="8" height="8" fill="url(#px)"/><rect x="24" y="0" width="8" height="8" fill="url(#px)"/><rect x="32" y="0" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="8" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="16" width="8" height="8" fill="url(#pxSh)"/>
-    <rect x="16" y="24" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="32" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="40" width="8" height="8" fill="url(#px)"/>
-    <rect x="16" y="48" width="8" height="8" fill="url(#pxSh)"/>
+    <rect x="0" y="0" width="8" height="8" fill="url(#blueHi)"/><rect x="8" y="0" width="8" height="8" fill="url(#blue)"/><rect x="16" y="0" width="8" height="8" fill="url(#blue)"/><rect x="24" y="0" width="8" height="8" fill="url(#blue)"/><rect x="32" y="0" width="8" height="8" fill="url(#blue)"/>
+    <rect x="16" y="8" width="8" height="8" fill="url(#blue)"/>
+    <rect x="16" y="16" width="8" height="8" fill="url(#blueSh)"/>
+    <rect x="16" y="24" width="8" height="8" fill="url(#blue)"/>
+    <rect x="16" y="32" width="8" height="8" fill="url(#blue)"/>
+    <rect x="16" y="40" width="8" height="8" fill="url(#blue)"/>
+    <rect x="16" y="48" width="8" height="8" fill="url(#blueSh)"/>
   </g>
 
-  <!-- H -->
+  <!-- H (yellow) -->
   <g transform="translate(148,4)">
-    <rect x="0" y="0" width="8" height="8" fill="url(#pxHi)"/><rect x="32" y="0" width="8" height="8" fill="url(#pxHi)"/>
-    <rect x="0" y="8" width="8" height="8" fill="url(#px)"/><rect x="32" y="8" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="16" width="8" height="8" fill="url(#pxSh)"/><rect x="32" y="16" width="8" height="8" fill="url(#pxSh)"/>
-    <rect x="0" y="24" width="8" height="8" fill="url(#px)"/><rect x="8" y="24" width="8" height="8" fill="url(#px)"/><rect x="16" y="24" width="8" height="8" fill="url(#px)"/><rect x="24" y="24" width="8" height="8" fill="url(#px)"/><rect x="32" y="24" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="32" width="8" height="8" fill="url(#px)"/><rect x="32" y="32" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="40" width="8" height="8" fill="url(#px)"/><rect x="32" y="40" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="48" width="8" height="8" fill="url(#pxSh)"/><rect x="32" y="48" width="8" height="8" fill="url(#pxSh)"/>
+    <rect x="0" y="0" width="8" height="8" fill="url(#yellowHi)"/><rect x="32" y="0" width="8" height="8" fill="url(#yellowHi)"/>
+    <rect x="0" y="8" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="8" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="16" width="8" height="8" fill="url(#yellowSh)"/><rect x="32" y="16" width="8" height="8" fill="url(#yellowSh)"/>
+    <rect x="0" y="24" width="8" height="8" fill="url(#yellow)"/><rect x="8" y="24" width="8" height="8" fill="url(#yellow)"/><rect x="16" y="24" width="8" height="8" fill="url(#yellow)"/><rect x="24" y="24" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="24" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="32" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="32" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="40" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="40" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="48" width="8" height="8" fill="url(#yellowSh)"/><rect x="32" y="48" width="8" height="8" fill="url(#yellowSh)"/>
   </g>
 
-  <!-- O -->
+  <!-- O (blue) -->
   <g transform="translate(196,4)">
-    <rect x="8" y="0" width="8" height="8" fill="url(#pxHi)"/><rect x="16" y="0" width="8" height="8" fill="url(#px)"/><rect x="24" y="0" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="8" width="8" height="8" fill="url(#px)"/><rect x="32" y="8" width="8" height="8" fill="url(#pxSh)"/>
-    <rect x="0" y="16" width="8" height="8" fill="url(#pxSh)"/><rect x="32" y="16" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="24" width="8" height="8" fill="url(#px)"/><rect x="32" y="24" width="8" height="8" fill="url(#pxSh)"/>
-    <rect x="0" y="32" width="8" height="8" fill="url(#px)"/><rect x="32" y="32" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="40" width="8" height="8" fill="url(#pxSh)"/><rect x="32" y="40" width="8" height="8" fill="url(#px)"/>
-    <rect x="8" y="48" width="8" height="8" fill="url(#px)"/><rect x="16" y="48" width="8" height="8" fill="url(#px)"/><rect x="24" y="48" width="8" height="8" fill="url(#pxSh)"/>
+    <rect x="8" y="0" width="8" height="8" fill="url(#blueHi)"/><rect x="16" y="0" width="8" height="8" fill="url(#blue)"/><rect x="24" y="0" width="8" height="8" fill="url(#blue)"/>
+    <rect x="0" y="8" width="8" height="8" fill="url(#blue)"/><rect x="32" y="8" width="8" height="8" fill="url(#blueSh)"/>
+    <rect x="0" y="16" width="8" height="8" fill="url(#blueSh)"/><rect x="32" y="16" width="8" height="8" fill="url(#blue)"/>
+    <rect x="0" y="24" width="8" height="8" fill="url(#blue)"/><rect x="32" y="24" width="8" height="8" fill="url(#blueSh)"/>
+    <rect x="0" y="32" width="8" height="8" fill="url(#blue)"/><rect x="32" y="32" width="8" height="8" fill="url(#blue)"/>
+    <rect x="0" y="40" width="8" height="8" fill="url(#blueSh)"/><rect x="32" y="40" width="8" height="8" fill="url(#blue)"/>
+    <rect x="8" y="48" width="8" height="8" fill="url(#blue)"/><rect x="16" y="48" width="8" height="8" fill="url(#blue)"/><rect x="24" y="48" width="8" height="8" fill="url(#blueSh)"/>
   </g>
 
-  <!-- N -->
+  <!-- N (yellow) -->
   <g transform="translate(244,4)">
-    <rect x="0" y="0" width="8" height="8" fill="url(#pxHi)"/><rect x="32" y="0" width="8" height="8" fill="url(#pxHi)"/>
-    <rect x="0" y="8" width="8" height="8" fill="url(#px)"/><rect x="16" y="8" width="8" height="8" fill="url(#px)"/><rect x="32" y="8" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="16" width="8" height="8" fill="url(#pxSh)"/><rect x="24" y="16" width="8" height="8" fill="url(#px)"/><rect x="32" y="16" width="8" height="8" fill="url(#pxSh)"/>
-    <rect x="0" y="24" width="8" height="8" fill="url(#px)"/><rect x="8" y="24" width="8" height="8" fill="url(#px)"/><rect x="32" y="24" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="32" width="8" height="8" fill="url(#px)"/><rect x="32" y="32" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="40" width="8" height="8" fill="url(#px)"/><rect x="32" y="40" width="8" height="8" fill="url(#px)"/>
-    <rect x="0" y="48" width="8" height="8" fill="url(#pxSh)"/><rect x="32" y="48" width="8" height="8" fill="url(#pxSh)"/>
+    <rect x="0" y="0" width="8" height="8" fill="url(#yellowHi)"/><rect x="32" y="0" width="8" height="8" fill="url(#yellowHi)"/>
+    <rect x="0" y="8" width="8" height="8" fill="url(#yellow)"/><rect x="16" y="8" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="8" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="16" width="8" height="8" fill="url(#yellowSh)"/><rect x="24" y="16" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="16" width="8" height="8" fill="url(#yellowSh)"/>
+    <rect x="0" y="24" width="8" height="8" fill="url(#yellow)"/><rect x="8" y="24" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="24" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="32" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="32" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="40" width="8" height="8" fill="url(#yellow)"/><rect x="32" y="40" width="8" height="8" fill="url(#yellow)"/>
+    <rect x="0" y="48" width="8" height="8" fill="url(#yellowSh)"/><rect x="32" y="48" width="8" height="8" fill="url(#yellowSh)"/>
   </g>
 </svg>
